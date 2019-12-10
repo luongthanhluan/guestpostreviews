@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2019, 2:20:13 PM
+    Author     : Admin
+*/
+
+/* line 1, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+.utility {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 25px; }
+@media (min-width: 840px) {
+    /* line 7, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility--is-stuck {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        border-bottom: 3px solid #20A88D;
+        position: fixed;
+        width: 100% !important;
+        top: 0;
+        z-index: 100;
+        left: 0; } }
+@media (max-width: 840px) {
+    /* line 7, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility--is-stuck {
+        position: relative !important; } }
+/* line 23, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+.utility__inner {
+    display: table;
+    width: 100%; }
+/* line 27, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+.utility--is-stuck .utility__inner {
+    max-width: 1180px;
+    margin: 0 auto; }
+/* line 33, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+.utility__text {
+    text-align: center;
+    color: #516168; }
+@media (min-width: 840px) {
+    /* line 33, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__text {
+        font-size: 26px;
+        font-size: 1.625rem;
+        padding: 0 0 0 30px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        display: block;
+        color: #516168;
+        height: 100%; }
+    /* line 47, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__text h1 {
+        font-size: 26px;
+        font-size: 1.625rem;
+        margin: 1em 0; } }
+/* line 55, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+.utility__logo {
+    text-align: center; }
+@media (min-width: 840px) {
+    /* line 55, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__logo {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left; }
+    /* line 63, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility--is-stuck .utility__logo {
+        width: 250px; } }
+@media (max-width: 840px) {
+    /* line 55, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__logo {
+        margin-bottom: 20px; } }
+/* line 73, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+.utility__links {
+    text-align: center; }
+@media (min-width: 840px) {
+    /* line 73, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__links {
+        width: 450px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right; } }
+/* line 87, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+.utility__links li {
+    display: inline-block;
+    vertical-align: middle; }
+@media (min-width: 840px) {
+    /* line 87, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__links li {
+        margin-left: 3%; } }
+@media (max-width: 960px) {
+    /* line 87, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__links li {
+        margin-left: 10px; } }
+@media (max-width: 640px) {
+    /* line 87, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__links li {
+        display: block;
+        margin-bottom: 5px;
+        margin-left: 0; }
+    /* line 104, /home/rails/discovercrm_production/releases/20191114163428/app/assets/stylesheets/_modules/_utility.scss */
+    .utility__links li .btn {
+        width: 100%; } }
